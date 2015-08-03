@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Dowan2008">
+</Property><Property Name="解决方案文件" Value="E:\pro\TCP\Dowan20131021\Dowan\Dowan\Dowan2008.sln">
+</Property><Property Name="用户选项文件" Value="E:\pro\TCP\Dowan20131021\Dowan\Dowan\Dowan2008.suo">
+</Property><Property Name="Date" Value="2013年10月21日">
+</Property><Property Name="Time" Value="9:20">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Dowan2008.sln" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Dowan2008.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Dowan2008.suo" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Dowan2008.suo">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Dowan2008.csproj" Description="项目文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Dowan2008.csproj">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Dowan2008.csproj.user" Description="项目用户文件成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Dowan2008.csproj.user">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Base.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Base.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Common.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Common.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Form1.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Form1.Designer.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="HttpHelper.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\HttpHelper.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="HttpWebResponseUtility.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\HttpWebResponseUtility.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="NetParams.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\NetParams.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="PPS.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\PPS.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Program.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Properties\Resources.Designer.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Properties\Settings.Designer.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Proxy.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Proxy.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="User.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\User.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="VerForm.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\VerForm.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="VerForm.Designer.cs" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\VerForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Properties\Settings.settings" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="FluorineFx.dll" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\FluorineFx.dll">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="log4net.dll" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\log4net.dll">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Form1.resx" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Properties\Resources.resx" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="VerForm.resx" Description="文件已成功备份为 E:\pro\TCP\Dowan20131021\Dowan\Dowan\Backup\VerForm.resx">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Dowan2008.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Dowan2008" Source="Dowan2008.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Dowan2008.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Dowan2008.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Dowan2008" Source="Dowan2008.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

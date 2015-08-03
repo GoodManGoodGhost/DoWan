@@ -1,0 +1,60 @@
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\bin\Debug\FluorineFx.dll
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\bin\Debug\log4net.dll
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\ResolveAssemblyReference.cache
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\Dowan.Form1.resources
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\Dowan.Login.resources
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\Dowan.Properties.Resources.resources
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\Dowan.VerForm.resources
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\bin\Debug\DW1.0.exe.config
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\bin\Debug\DW1.0.exe
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\bin\Debug\DW1.0.pdb
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\DW1.0.exe
+E:\pro\TCP\Dowan20131024\Dowan\Dowan\obj\Debug\DW1.0.pdb
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\bin\Debug\DW1.0.exe.config
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\bin\Debug\DW1.0.exe
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\bin\Debug\DW1.0.pdb
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\bin\Debug\FluorineFx.dll
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\bin\Debug\log4net.dll
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\ResolveAssemblyReference.cache
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\Dowan.Form1.resources
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\Dowan.Login.resources
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\Dowan.Properties.Resources.resources
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\Dowan.VerForm.resources
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\DW1.0.exe
+E:\pro\TCP\Dowan131031\Dowan - web\Dowan\obj\Debug\DW1.0.pdb
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\bin\Debug\DW1.0.exe.config
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\bin\Debug\DW1.0.exe
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\bin\Debug\DW1.0.pdb
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\bin\Debug\FluorineFx.dll
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\bin\Debug\log4net.dll
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\ResolveAssemblyReference.cache
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\Dowan.Form1.resources
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\Dowan.Login.resources
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\Dowan.Properties.Resources.resources
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\Dowan.VerForm.resources
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\DW1.0.exe
+E:\MY\DowanWeb\Dowan\Dowan_DWKJ\obj\Debug\DW1.0.pdb
+D:\WEB项目\Dowan_DWKJ\bin\Debug\DW1.0.exe.config
+D:\WEB项目\Dowan_DWKJ\bin\Debug\DW1.0.exe.manifest
+D:\WEB项目\Dowan_DWKJ\bin\Debug\DW1.0.application
+D:\WEB项目\Dowan_DWKJ\bin\Debug\DW1.0.exe
+D:\WEB项目\Dowan_DWKJ\bin\Debug\DW1.0.pdb
+D:\WEB项目\Dowan_DWKJ\bin\Debug\FluorineFx.dll
+D:\WEB项目\Dowan_DWKJ\bin\Debug\log4net.dll
+D:\WEB项目\Dowan_DWKJ\obj\Debug\ResolveAssemblyReference.cache
+D:\WEB项目\Dowan_DWKJ\obj\Debug\Dowan.Form1.resources
+D:\WEB项目\Dowan_DWKJ\obj\Debug\Dowan.Login.resources
+D:\WEB项目\Dowan_DWKJ\obj\Debug\Dowan.Properties.Resources.resources
+D:\WEB项目\Dowan_DWKJ\obj\Debug\Dowan.VerForm.resources
+D:\WEB项目\Dowan_DWKJ\obj\Debug\GenerateResource.read.1.tlog
+D:\WEB项目\Dowan_DWKJ\obj\Debug\GenerateResource.write.1.tlog
+D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.exe.manifest
+D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.application
+D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.exe
+D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.pdb

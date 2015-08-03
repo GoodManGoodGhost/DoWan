@@ -1,0 +1,13 @@
+E:\MY\Dowan201310181725\Dowan\Dowan2008\bin\Debug\Dowan2008.exe
+E:\MY\Dowan201310181725\Dowan\Dowan2008\bin\Debug\Dowan2008.pdb
+E:\MY\Dowan201310181725\Dowan\Dowan2008\bin\Debug\FluorineFx.dll
+E:\MY\Dowan201310181725\Dowan\Dowan2008\bin\Debug\log4net.dll
+E:\MY\Dowan201310181725\Dowan\Dowan2008\obj\Debug\ResolveAssemblyReference.cache
+E:\MY\Dowan201310181725\Dowan\Dowan2008\obj\Debug\Dowan.Form1.resources
+E:\MY\Dowan201310181725\Dowan\Dowan2008\obj\Debug\Dowan2008.Properties.Resources.resources
+E:\MY\Dowan201310181725\Dowan\Dowan2008\obj\Debug\Dowan.VerForm.resources
+E:\MY\Dowan201310181725\Dowan\Dowan2008\obj\Debug\Dowan2008.csproj.GenerateResource.Cache
+E:\MY\Dowan201310181725\Dowan\Dowan2008\obj\Debug\Dowan2008.exe
+E:\MY\Dowan201310181725\Dowan\Dowan2008\obj\Debug\Dowan2008.pdb
+E:\pro\TCP\Dowan20131021\Dowan\Dowan\obj\Debug\Dowan2008.exe
+E:\pro\TCP\Dowan20131021\Dowan\Dowan\obj\Debug\Dowan2008.pdb
