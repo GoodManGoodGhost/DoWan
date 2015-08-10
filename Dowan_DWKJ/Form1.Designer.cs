@@ -30,132 +30,132 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.btnImport = new System.Windows.Forms.Button();
-            this.btnFlower = new System.Windows.Forms.Button();
-            this.userDGV = new System.Windows.Forms.DataGridView();
-            this.indexz = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.username = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.logined = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.channel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.majia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Qianming = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button_Import_Account = new System.Windows.Forms.Button();
+            this.button_Flower = new System.Windows.Forms.Button();
+            this.user_DataGridView = new System.Windows.Forms.DataGridView();
+            this.index_DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.username_DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.logined_DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.channel_DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.majia_DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qianming_DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastMsg = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnLogin = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.function_GroupBox = new System.Windows.Forms.GroupBox();
             this.rbYesProxy = new System.Windows.Forms.RadioButton();
             this.rbNoProxy = new System.Windows.Forms.RadioButton();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.tbInfo = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.button_Exit = new System.Windows.Forms.Button();
+            this.button_Access_Channel = new System.Windows.Forms.Button();
+            this.get_Proxy_IP_Address = new System.Windows.Forms.Label();
             this.tbProxySper = new System.Windows.Forms.TextBox();
             this.tbProxyAddr = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.llGetProxyNum = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.fen_Ge_Fu = new System.Windows.Forms.Label();
+            this.total_Get_Proxy_Number = new System.Windows.Forms.Label();
+            this.exit_Channel = new System.Windows.Forms.Button();
+            this.change_Channel = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
+            this.kai_Shi_Qiang_Mai = new System.Windows.Forms.Button();
+            this.qiang_Mai_Shu_Liang = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
+            this.qu_Xiao_Qiang_Mai = new System.Windows.Forms.Button();
+            this.send_Words = new System.Windows.Forms.Button();
+            this.words_To_Say = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.userDGV)).BeginInit();
-            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.user_DataGridView)).BeginInit();
+            this.function_GroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnImport
+            // button_Import_Account
             // 
-            this.btnImport.Location = new System.Drawing.Point(12, 16);
-            this.btnImport.Margin = new System.Windows.Forms.Padding(2);
-            this.btnImport.Name = "btnImport";
-            this.btnImport.Size = new System.Drawing.Size(73, 23);
-            this.btnImport.TabIndex = 10;
-            this.btnImport.Text = "导入帐号";
-            this.btnImport.UseVisualStyleBackColor = true;
-            this.btnImport.Click += new System.EventHandler(this.button1_Click);
+            this.button_Import_Account.Location = new System.Drawing.Point(12, 16);
+            this.button_Import_Account.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Import_Account.Name = "button_Import_Account";
+            this.button_Import_Account.Size = new System.Drawing.Size(73, 23);
+            this.button_Import_Account.TabIndex = 10;
+            this.button_Import_Account.Text = "导入帐号";
+            this.button_Import_Account.UseVisualStyleBackColor = true;
+            this.button_Import_Account.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnFlower
+            // button_Flower
             // 
-            this.btnFlower.Location = new System.Drawing.Point(12, 50);
-            this.btnFlower.Margin = new System.Windows.Forms.Padding(2);
-            this.btnFlower.Name = "btnFlower";
-            this.btnFlower.Size = new System.Drawing.Size(73, 23);
-            this.btnFlower.TabIndex = 10;
-            this.btnFlower.Text = "开启刷花";
-            this.btnFlower.UseVisualStyleBackColor = true;
-            this.btnFlower.Click += new System.EventHandler(this.button3_Click_1);
+            this.button_Flower.Location = new System.Drawing.Point(12, 50);
+            this.button_Flower.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Flower.Name = "button_Flower";
+            this.button_Flower.Size = new System.Drawing.Size(73, 23);
+            this.button_Flower.TabIndex = 10;
+            this.button_Flower.Text = "开启刷花";
+            this.button_Flower.UseVisualStyleBackColor = true;
+            this.button_Flower.Click += new System.EventHandler(this.button3_Click_1);
             // 
-            // userDGV
+            // user_DataGridView
             // 
-            this.userDGV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.user_DataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.userDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.userDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.indexz,
-            this.username,
-            this.logined,
-            this.channel,
-            this.majia,
-            this.Qianming,
+            this.user_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.user_DataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.index_DataGridViewTextBoxColumn,
+            this.username_DataGridViewTextBoxColumn,
+            this.logined_DataGridViewTextBoxColumn,
+            this.channel_DataGridViewTextBoxColumn,
+            this.majia_DataGridViewTextBoxColumn,
+            this.qianming_DataGridViewTextBoxColumn,
             this.lastMsg});
-            this.userDGV.Location = new System.Drawing.Point(1, 1);
-            this.userDGV.Margin = new System.Windows.Forms.Padding(2);
-            this.userDGV.Name = "userDGV";
-            this.userDGV.RowHeadersVisible = false;
-            this.userDGV.RowTemplate.Height = 19;
-            this.userDGV.Size = new System.Drawing.Size(658, 321);
-            this.userDGV.TabIndex = 14;
-            this.userDGV.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.userDGV_CellFormatting);
+            this.user_DataGridView.Location = new System.Drawing.Point(1, 1);
+            this.user_DataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.user_DataGridView.Name = "user_DataGridView";
+            this.user_DataGridView.RowHeadersVisible = false;
+            this.user_DataGridView.RowTemplate.Height = 19;
+            this.user_DataGridView.Size = new System.Drawing.Size(658, 321);
+            this.user_DataGridView.TabIndex = 14;
+            this.user_DataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.userDGV_CellFormatting);
             // 
-            // indexz
+            // index_DataGridViewTextBoxColumn
             // 
-            this.indexz.DataPropertyName = "Indexz";
-            this.indexz.HeaderText = "编号";
-            this.indexz.Name = "indexz";
-            this.indexz.Width = 70;
+            this.index_DataGridViewTextBoxColumn.DataPropertyName = "Indexz";
+            this.index_DataGridViewTextBoxColumn.HeaderText = "编号";
+            this.index_DataGridViewTextBoxColumn.Name = "index_DataGridViewTextBoxColumn";
+            this.index_DataGridViewTextBoxColumn.Width = 70;
             // 
-            // username
+            // username_DataGridViewTextBoxColumn
             // 
-            this.username.DataPropertyName = "UserName";
-            this.username.HeaderText = "帐号";
-            this.username.Name = "username";
-            this.username.ReadOnly = true;
-            this.username.Width = 118;
+            this.username_DataGridViewTextBoxColumn.DataPropertyName = "UserName";
+            this.username_DataGridViewTextBoxColumn.HeaderText = "帐号";
+            this.username_DataGridViewTextBoxColumn.Name = "username_DataGridViewTextBoxColumn";
+            this.username_DataGridViewTextBoxColumn.ReadOnly = true;
+            this.username_DataGridViewTextBoxColumn.Width = 118;
             // 
-            // logined
+            // logined_DataGridViewTextBoxColumn
             // 
-            this.logined.DataPropertyName = "IsLogined";
-            this.logined.HeaderText = "登录";
-            this.logined.Name = "logined";
-            this.logined.ReadOnly = true;
-            this.logined.Width = 80;
+            this.logined_DataGridViewTextBoxColumn.DataPropertyName = "IsLogined";
+            this.logined_DataGridViewTextBoxColumn.HeaderText = "登录";
+            this.logined_DataGridViewTextBoxColumn.Name = "logined_DataGridViewTextBoxColumn";
+            this.logined_DataGridViewTextBoxColumn.ReadOnly = true;
+            this.logined_DataGridViewTextBoxColumn.Width = 80;
             // 
-            // channel
+            // channel_DataGridViewTextBoxColumn
             // 
-            this.channel.DataPropertyName = "OldChannel";
-            this.channel.HeaderText = "频道";
-            this.channel.Name = "channel";
-            this.channel.ReadOnly = true;
-            this.channel.Width = 80;
+            this.channel_DataGridViewTextBoxColumn.DataPropertyName = "OldChannel";
+            this.channel_DataGridViewTextBoxColumn.HeaderText = "频道";
+            this.channel_DataGridViewTextBoxColumn.Name = "channel_DataGridViewTextBoxColumn";
+            this.channel_DataGridViewTextBoxColumn.ReadOnly = true;
+            this.channel_DataGridViewTextBoxColumn.Width = 80;
             // 
-            // majia
+            // majia_DataGridViewTextBoxColumn
             // 
-            this.majia.DataPropertyName = "Nick";
-            this.majia.HeaderText = "马甲";
-            this.majia.Name = "majia";
+            this.majia_DataGridViewTextBoxColumn.DataPropertyName = "Nick";
+            this.majia_DataGridViewTextBoxColumn.HeaderText = "马甲";
+            this.majia_DataGridViewTextBoxColumn.Name = "majia_DataGridViewTextBoxColumn";
             // 
-            // Qianming
+            // qianming_DataGridViewTextBoxColumn
             // 
-            this.Qianming.DataPropertyName = "QianMing";
-            this.Qianming.HeaderText = "签名";
-            this.Qianming.Name = "Qianming";
-            this.Qianming.Visible = false;
+            this.qianming_DataGridViewTextBoxColumn.DataPropertyName = "QianMing";
+            this.qianming_DataGridViewTextBoxColumn.HeaderText = "签名";
+            this.qianming_DataGridViewTextBoxColumn.Name = "qianming_DataGridViewTextBoxColumn";
+            this.qianming_DataGridViewTextBoxColumn.Visible = false;
             // 
             // lastMsg
             // 
@@ -215,42 +215,42 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "频道ID";
             // 
-            // groupBox4
+            // function_GroupBox
             // 
-            this.groupBox4.Controls.Add(this.tbProxySper);
-            this.groupBox4.Controls.Add(this.llGetProxyNum);
-            this.groupBox4.Controls.Add(this.textBox3);
-            this.groupBox4.Controls.Add(this.label8);
-            this.groupBox4.Controls.Add(this.tbProxyAddr);
-            this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Controls.Add(this.button3);
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.button6);
-            this.groupBox4.Controls.Add(this.textBox4);
-            this.groupBox4.Controls.Add(this.textBox5);
-            this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Controls.Add(this.button7);
-            this.groupBox4.Controls.Add(this.button4);
-            this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Controls.Add(this.rbYesProxy);
-            this.groupBox4.Controls.Add(this.rbNoProxy);
-            this.groupBox4.Controls.Add(this.btnImport);
-            this.groupBox4.Controls.Add(this.button1);
-            this.groupBox4.Controls.Add(this.btnLogin);
-            this.groupBox4.Controls.Add(this.btnExit);
-            this.groupBox4.Controls.Add(this.tbInfo);
-            this.groupBox4.Controls.Add(this.btnFlower);
-            this.groupBox4.Controls.Add(this.label2);
-            this.groupBox4.Location = new System.Drawing.Point(6, 326);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(653, 139);
-            this.groupBox4.TabIndex = 25;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "功能区 --- 本软件唯一联系QQ:1501915019";
+            this.function_GroupBox.Controls.Add(this.tbProxySper);
+            this.function_GroupBox.Controls.Add(this.total_Get_Proxy_Number);
+            this.function_GroupBox.Controls.Add(this.textBox3);
+            this.function_GroupBox.Controls.Add(this.fen_Ge_Fu);
+            this.function_GroupBox.Controls.Add(this.tbProxyAddr);
+            this.function_GroupBox.Controls.Add(this.words_To_Say);
+            this.function_GroupBox.Controls.Add(this.send_Words);
+            this.function_GroupBox.Controls.Add(this.get_Proxy_IP_Address);
+            this.function_GroupBox.Controls.Add(this.qu_Xiao_Qiang_Mai);
+            this.function_GroupBox.Controls.Add(this.textBox4);
+            this.function_GroupBox.Controls.Add(this.textBox5);
+            this.function_GroupBox.Controls.Add(this.qiang_Mai_Shu_Liang);
+            this.function_GroupBox.Controls.Add(this.change_Channel);
+            this.function_GroupBox.Controls.Add(this.exit_Channel);
+            this.function_GroupBox.Controls.Add(this.kai_Shi_Qiang_Mai);
+            this.function_GroupBox.Controls.Add(this.rbYesProxy);
+            this.function_GroupBox.Controls.Add(this.rbNoProxy);
+            this.function_GroupBox.Controls.Add(this.button_Import_Account);
+            this.function_GroupBox.Controls.Add(this.button1);
+            this.function_GroupBox.Controls.Add(this.btnLogin);
+            this.function_GroupBox.Controls.Add(this.button_Exit);
+            this.function_GroupBox.Controls.Add(this.button_Access_Channel);
+            this.function_GroupBox.Controls.Add(this.button_Flower);
+            this.function_GroupBox.Controls.Add(this.label2);
+            this.function_GroupBox.Location = new System.Drawing.Point(6, 326);
+            this.function_GroupBox.Margin = new System.Windows.Forms.Padding(2);
+            this.function_GroupBox.Name = "function_GroupBox";
+            this.function_GroupBox.Padding = new System.Windows.Forms.Padding(2);
+            this.function_GroupBox.Size = new System.Drawing.Size(653, 139);
+            this.function_GroupBox.TabIndex = 25;
+            this.function_GroupBox.TabStop = false;
+            this.function_GroupBox.Text = "功能区 --- 本软件唯一联系QQ:1501915019";
             // 
-            // rbYesProxy
+            // rbYesProxy PS：此处Yes/No看不懂，故没改名字，保留原始信息。
             // 
             this.rbYesProxy.AutoSize = true;
             this.rbYesProxy.Location = new System.Drawing.Point(106, 87);
@@ -262,7 +262,7 @@
             this.rbYesProxy.UseVisualStyleBackColor = true;
             this.rbYesProxy.CheckedChanged += new System.EventHandler(this.rbNoProxy_CheckedChanged);
             // 
-            // rbNoProxy
+            // rbNoProxy PS：此处Yes/No看不懂，故没改名字，保留原始信息。
             // 
             this.rbNoProxy.AutoSize = true;
             this.rbNoProxy.Checked = true;
@@ -276,36 +276,36 @@
             this.rbNoProxy.UseVisualStyleBackColor = true;
             this.rbNoProxy.CheckedChanged += new System.EventHandler(this.rbNoProxy_CheckedChanged);
             // 
-            // btnExit
+            // button_Exit
             // 
-            this.btnExit.Location = new System.Drawing.Point(262, 53);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(72, 23);
-            this.btnExit.TabIndex = 10;
-            this.btnExit.Text = "退出软件";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            this.button_Exit.Location = new System.Drawing.Point(262, 53);
+            this.button_Exit.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Exit.Name = "button_Exit";
+            this.button_Exit.Size = new System.Drawing.Size(72, 23);
+            this.button_Exit.TabIndex = 10;
+            this.button_Exit.Text = "退出软件";
+            this.button_Exit.UseVisualStyleBackColor = true;
+            this.button_Exit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // tbInfo
+            // button_Access_Channel
             // 
-            this.tbInfo.Location = new System.Drawing.Point(259, 16);
-            this.tbInfo.Margin = new System.Windows.Forms.Padding(2);
-            this.tbInfo.Name = "tbInfo";
-            this.tbInfo.Size = new System.Drawing.Size(75, 23);
-            this.tbInfo.TabIndex = 10;
-            this.tbInfo.Text = "进入频道";
-            this.tbInfo.UseVisualStyleBackColor = true;
+            this.button_Access_Channel.Location = new System.Drawing.Point(259, 16);
+            this.button_Access_Channel.Margin = new System.Windows.Forms.Padding(2);
+            this.button_Access_Channel.Name = "button_Access_Channel";
+            this.button_Access_Channel.Size = new System.Drawing.Size(75, 23);
+            this.button_Access_Channel.TabIndex = 10;
+            this.button_Access_Channel.Text = "进入频道";
+            this.button_Access_Channel.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // get_Proxy_IP_Address
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 114);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 12);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "获取代理IP地址:";
+            this.get_Proxy_IP_Address.AutoSize = true;
+            this.get_Proxy_IP_Address.Location = new System.Drawing.Point(4, 114);
+            this.get_Proxy_IP_Address.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.get_Proxy_IP_Address.Name = "get_Proxy_IP_Address";
+            this.get_Proxy_IP_Address.Size = new System.Drawing.Size(95, 12);
+            this.get_Proxy_IP_Address.TabIndex = 22;
+            this.get_Proxy_IP_Address.Text = "获取代理IP地址:";
             // 
             // tbProxySper
             // 
@@ -326,47 +326,47 @@
             this.tbProxyAddr.Size = new System.Drawing.Size(311, 21);
             this.tbProxyAddr.TabIndex = 23;
             // 
-            // label8
+            // fen_Ge_Fu
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(434, 114);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(47, 12);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "分隔符:";
+            this.fen_Ge_Fu.AutoSize = true;
+            this.fen_Ge_Fu.Location = new System.Drawing.Point(434, 114);
+            this.fen_Ge_Fu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.fen_Ge_Fu.Name = "fen_Ge_Fu";
+            this.fen_Ge_Fu.Size = new System.Drawing.Size(47, 12);
+            this.fen_Ge_Fu.TabIndex = 21;
+            this.fen_Ge_Fu.Text = "分隔符:";
             // 
-            // llGetProxyNum
+            // total_Get_Proxy_Number
             // 
-            this.llGetProxyNum.AutoSize = true;
-            this.llGetProxyNum.Location = new System.Drawing.Point(544, 114);
-            this.llGetProxyNum.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.llGetProxyNum.Name = "llGetProxyNum";
-            this.llGetProxyNum.Size = new System.Drawing.Size(95, 12);
-            this.llGetProxyNum.TabIndex = 24;
-            this.llGetProxyNum.Text = "共获取0个代理IP";
+            this.total_Get_Proxy_Number.AutoSize = true;
+            this.total_Get_Proxy_Number.Location = new System.Drawing.Point(544, 114);
+            this.total_Get_Proxy_Number.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.total_Get_Proxy_Number.Name = "total_Get_Proxy_Number";
+            this.total_Get_Proxy_Number.Size = new System.Drawing.Size(95, 12);
+            this.total_Get_Proxy_Number.TabIndex = 24;
+            this.total_Get_Proxy_Number.Text = "共获取0个代理IP";
             // 
-            // button4
+            // exit_Channel
             // 
-            this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(91, 49);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(72, 24);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "退出频道";
-            this.button4.UseVisualStyleBackColor = true;
+            this.exit_Channel.Enabled = false;
+            this.exit_Channel.Location = new System.Drawing.Point(91, 49);
+            this.exit_Channel.Margin = new System.Windows.Forms.Padding(2);
+            this.exit_Channel.Name = "exit_Channel";
+            this.exit_Channel.Size = new System.Drawing.Size(72, 24);
+            this.exit_Channel.TabIndex = 21;
+            this.exit_Channel.Text = "退出频道";
+            this.exit_Channel.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // change_Channel
             // 
-            this.button7.Enabled = false;
-            this.button7.Location = new System.Drawing.Point(172, 52);
-            this.button7.Margin = new System.Windows.Forms.Padding(2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(72, 24);
-            this.button7.TabIndex = 22;
-            this.button7.Text = "转换频道";
-            this.button7.UseVisualStyleBackColor = true;
+            this.change_Channel.Enabled = false;
+            this.change_Channel.Location = new System.Drawing.Point(172, 52);
+            this.change_Channel.Margin = new System.Windows.Forms.Padding(2);
+            this.change_Channel.Name = "change_Channel";
+            this.change_Channel.Size = new System.Drawing.Size(72, 24);
+            this.change_Channel.TabIndex = 22;
+            this.change_Channel.Text = "转换频道";
+            this.change_Channel.UseVisualStyleBackColor = true;
             // 
             // textBox5
             // 
@@ -375,23 +375,23 @@
             this.textBox5.Size = new System.Drawing.Size(83, 21);
             this.textBox5.TabIndex = 34;
             // 
-            // button5
+            // kai_Shi_Qiang_Mai
             // 
-            this.button5.Location = new System.Drawing.Point(376, 16);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(79, 22);
-            this.button5.TabIndex = 30;
-            this.button5.Text = "开始抢麦";
-            this.button5.UseVisualStyleBackColor = true;
+            this.kai_Shi_Qiang_Mai.Location = new System.Drawing.Point(376, 16);
+            this.kai_Shi_Qiang_Mai.Name = "kai_Shi_Qiang_Mai";
+            this.kai_Shi_Qiang_Mai.Size = new System.Drawing.Size(79, 22);
+            this.kai_Shi_Qiang_Mai.TabIndex = 30;
+            this.kai_Shi_Qiang_Mai.Text = "开始抢麦";
+            this.kai_Shi_Qiang_Mai.UseVisualStyleBackColor = true;
             // 
-            // label9
+            // qiang_Mai_Shu_Liang
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(349, 58);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(65, 12);
-            this.label9.TabIndex = 32;
-            this.label9.Text = "抢麦数量：";
+            this.qiang_Mai_Shu_Liang.AutoSize = true;
+            this.qiang_Mai_Shu_Liang.Location = new System.Drawing.Point(349, 58);
+            this.qiang_Mai_Shu_Liang.Name = "qiang_Mai_Shu_Liang";
+            this.qiang_Mai_Shu_Liang.Size = new System.Drawing.Size(65, 12);
+            this.qiang_Mai_Shu_Liang.TabIndex = 32;
+            this.qiang_Mai_Shu_Liang.Text = "抢麦数量：";
             // 
             // textBox4
             // 
@@ -400,32 +400,32 @@
             this.textBox4.Size = new System.Drawing.Size(59, 21);
             this.textBox4.TabIndex = 33;
             // 
-            // button6
+            // qu_Xiao_Qiang_Mai
             // 
-            this.button6.Location = new System.Drawing.Point(475, 16);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(79, 22);
-            this.button6.TabIndex = 31;
-            this.button6.Text = "取消抢麦";
-            this.button6.UseVisualStyleBackColor = true;
+            this.qu_Xiao_Qiang_Mai.Location = new System.Drawing.Point(475, 16);
+            this.qu_Xiao_Qiang_Mai.Name = "qu_Xiao_Qiang_Mai";
+            this.qu_Xiao_Qiang_Mai.Size = new System.Drawing.Size(79, 22);
+            this.qu_Xiao_Qiang_Mai.TabIndex = 31;
+            this.qu_Xiao_Qiang_Mai.Text = "取消抢麦";
+            this.qu_Xiao_Qiang_Mai.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // send_Words
             // 
-            this.button3.Location = new System.Drawing.Point(569, 16);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(79, 22);
-            this.button3.TabIndex = 28;
-            this.button3.Text = " 点击发言";
-            this.button3.UseVisualStyleBackColor = true;
+            this.send_Words.Location = new System.Drawing.Point(569, 16);
+            this.send_Words.Name = "send_Words";
+            this.send_Words.Size = new System.Drawing.Size(79, 22);
+            this.send_Words.TabIndex = 28;
+            this.send_Words.Text = " 点击发言";
+            this.send_Words.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // words_To_Say
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(349, 87);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 12);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "发言内容：";
+            this.words_To_Say.AutoSize = true;
+            this.words_To_Say.Location = new System.Drawing.Point(349, 87);
+            this.words_To_Say.Name = "words_To_Say";
+            this.words_To_Say.Size = new System.Drawing.Size(65, 12);
+            this.words_To_Say.TabIndex = 27;
+            this.words_To_Say.Text = "发言内容：";
             // 
             // textBox3
             // 
@@ -439,8 +439,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 469);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.userDGV);
+            this.Controls.Add(this.function_GroupBox);
+            this.Controls.Add(this.user_DataGridView);
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -450,52 +450,52 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
-            ((System.ComponentModel.ISupportInitialize)(this.userDGV)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.user_DataGridView)).EndInit();
+            this.function_GroupBox.ResumeLayout(false);
+            this.function_GroupBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnImport;
-        public System.Windows.Forms.DataGridView userDGV;
+        private System.Windows.Forms.Button button_Import_Account;
+        public System.Windows.Forms.DataGridView user_DataGridView;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Timer timer1;
-        public System.Windows.Forms.Button btnFlower;
+        public System.Windows.Forms.Button button_Flower;
         private System.Windows.Forms.DataGridViewTextBoxColumn index;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn indexz;
-        private System.Windows.Forms.DataGridViewTextBoxColumn username;
-        private System.Windows.Forms.DataGridViewTextBoxColumn logined;
-        private System.Windows.Forms.DataGridViewTextBoxColumn channel;
-        private System.Windows.Forms.DataGridViewTextBoxColumn majia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Qianming;
+        private System.Windows.Forms.DataGridViewTextBoxColumn index_DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn username_DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn logined_DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn channel_DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn majia_DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qianming_DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastMsg;
-        private System.Windows.Forms.GroupBox groupBox4;
-        public System.Windows.Forms.Button btnExit;
-        public System.Windows.Forms.Button tbInfo;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.GroupBox function_GroupBox;
+        public System.Windows.Forms.Button button_Exit;
+        public System.Windows.Forms.Button button_Access_Channel;
+        private System.Windows.Forms.Label get_Proxy_IP_Address;
         //private System.Windows.Forms.Label llProxyNum;
         private System.Windows.Forms.RadioButton rbYesProxy;
         private System.Windows.Forms.RadioButton rbNoProxy;
-        private System.Windows.Forms.Label llGetProxyNum;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label total_Get_Proxy_Number;
+        private System.Windows.Forms.Label fen_Ge_Fu;
         public System.Windows.Forms.TextBox tbProxyAddr;
         public System.Windows.Forms.TextBox tbProxySper;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label words_To_Say;
+        private System.Windows.Forms.Button send_Words;
+        private System.Windows.Forms.Button qu_Xiao_Qiang_Mai;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label qiang_Mai_Shu_Liang;
+        private System.Windows.Forms.Button change_Channel;
+        private System.Windows.Forms.Button exit_Channel;
+        private System.Windows.Forms.Button kai_Shi_Qiang_Mai;
     }
 }
 

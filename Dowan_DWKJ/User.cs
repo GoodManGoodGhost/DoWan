@@ -349,7 +349,7 @@ namespace Dowan
             }
             catch (Exception e)
             {
-                Common.WriteLogFile("Timer:username:" + myname + "\r\n" + e.ToString());
+                Common.WriteLogFile("Timer:username_DataGridViewTextBoxColumn:" + myname + "\r\n" + e.ToString());
             }
         }
                
@@ -793,7 +793,7 @@ namespace Dowan
                 Common.ProxyManager.Score(proxy, ScoreType.Dropped);
                 if (Common.LogSwitch)
                     lastMsg = "掉线:" + DateTime.Now;
-                Common.WriteLogFile("inHB:Addr:" + socket.RemoteEndPoint.ToString() + ",username:" + myname + "\r\n" + ex.ToString());
+                Common.WriteLogFile("inHB:Addr:" + socket.RemoteEndPoint.ToString() + ",username_DataGridViewTextBoxColumn:" + myname + "\r\n" + ex.ToString());
                 //关闭socket;
                 Common.OnLineNum--;
                 socket.Close();

@@ -76,7 +76,7 @@ namespace Dowan
                     user.Indexz = uindex;
                     Common.LoadUserList.Add(user);
                 }
-                pform.userDGV.DataSource = Common.LoadUserList;
+                pform.user_DataGridView.DataSource = Common.LoadUserList;
                 pform.Text += "---共" + Common.LoadUserList.Count + "个帐号.";
                 flag = true;
             }
@@ -123,7 +123,7 @@ namespace Dowan
                     //user.Indexz = uindex;
                     Common.MajaList.Add(strRead);
                 }
-                //pform.userDGV.DataSource = Common.LoadUserList;
+                //pform.user_DataGridView.DataSource = Common.LoadUserList;
                 //pform.Text += "---共" + Common.LoadUserList.Count + "个帐号.";
                 flag = true;
             }
@@ -171,7 +171,7 @@ namespace Dowan
                     //user.Indexz = uindex;
                     Common.QianMing.Add(strRead);
                 }
-                //pform.userDGV.DataSource = Common.LoadUserList;
+                //pform.user_DataGridView.DataSource = Common.LoadUserList;
                 //pform.Text += "---共" + Common.LoadUserList.Count + "个帐号.";
                 flag = true;
             }
@@ -260,9 +260,9 @@ namespace Dowan
                 catch (Exception e)
                 {
                     //if (user.Socket != null)
-                    //    Common.WriteLogFile("Lo \r\n Addr:" + user.Socket.RemoteEndPoint.ToString() + ",username:" + user.UserName + "\r\n" + e.ToString());
+                    //    Common.WriteLogFile("Lo \r\n Addr:" + user.Socket.RemoteEndPoint.ToString() + ",username_DataGridViewTextBoxColumn:" + user.UserName + "\r\n" + e.ToString());
                     // else
-                    //    Common.WriteLogFile("Lo \r\n Addr:null,username:" + user.UserName + "\r\n" + e.ToString());
+                    //    Common.WriteLogFile("Lo \r\n Addr:null,username_DataGridViewTextBoxColumn:" + user.UserName + "\r\n" + e.ToString());
                 }
             }
         }
@@ -321,16 +321,16 @@ namespace Dowan
                     switch (se.ErrorCode)
                     {
                         case 10060://如果是连接超时异常
-                            Common.WriteLogFile("NML-se: \r\n Addr:" + Common.ServoUser.Socket.RemoteEndPoint.ToString() + ",username:" + Common.ServoUser.UserName + "\r\n" + se.ToString());
+                            Common.WriteLogFile("NML-se: \r\n Addr:" + Common.ServoUser.Socket.RemoteEndPoint.ToString() + ",username_DataGridViewTextBoxColumn:" + Common.ServoUser.UserName + "\r\n" + se.ToString());
                             break;
                         default:
-                            Common.WriteLogFile("NML-se: \r\n Addr:" + Common.ServoUser.Socket.RemoteEndPoint.ToString() + ",username:" + Common.ServoUser.UserName + "\r\n" + se.ToString());
+                            Common.WriteLogFile("NML-se: \r\n Addr:" + Common.ServoUser.Socket.RemoteEndPoint.ToString() + ",username_DataGridViewTextBoxColumn:" + Common.ServoUser.UserName + "\r\n" + se.ToString());
                             break;
                     }
                 }
                 catch (Exception e)
                 {
-                    Common.WriteLogFile("NML-e: \r\n Addr:" + Common.ServoUser.Socket.RemoteEndPoint.ToString() + ",username:" + Common.ServoUser.UserName + "\r\n" + e.ToString());
+                    Common.WriteLogFile("NML-e: \r\n Addr:" + Common.ServoUser.Socket.RemoteEndPoint.ToString() + ",username_DataGridViewTextBoxColumn:" + Common.ServoUser.UserName + "\r\n" + e.ToString());
                 }
                 //当前消息循环异常时，另设置一个
                 foreach (User u in Common.UserList)

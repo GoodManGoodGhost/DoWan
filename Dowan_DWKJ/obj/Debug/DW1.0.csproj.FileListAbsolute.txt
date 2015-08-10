@@ -58,3 +58,11 @@ D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.exe.manifest
 D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.application
 D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.exe
 D:\WEB项目\Dowan_DWKJ\obj\Debug\DW1.0.pdb
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\Dowan.Form1.resources
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\Dowan.Login.resources
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\Dowan.Properties.Resources.resources
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\Dowan.VerForm.resources
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\DW1.0.csproj.GenerateResource.Cache
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\DW1.0.exe
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\DW1.0.pdb
+C:\Users\Lv\Documents\GitHubVisualStudio\DoWan\Dowan_DWKJ\obj\Debug\DW1.0.csprojResolveAssemblyReference.cache
