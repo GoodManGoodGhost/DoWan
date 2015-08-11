@@ -17,13 +17,13 @@ namespace Dowan
         {
             InitializeComponent();
             Text = Common.SystemName;
-            userDGV.AutoGenerateColumns = false;
+            user_DataGridView.AutoGenerateColumns = false;
             Control.CheckForIllegalCrossThreadCalls = false;
             Common.MainForm = this;
             b = new Base(this);
-            checkBox1.Checked = Common.CodeSwitch;
-            textBox1.Enabled = checkBox1.Checked;
-            textBox2.Enabled = checkBox1.Checked;
+            //checkBox1.Checked = Common.CodeSwitch;
+            //textBox1.Enabled = checkBox1.Checked;
+            //textBox2.Enabled = checkBox1.Checked;
             if (Common.ProxySwitch)
             {
                 rbYesProxy.Checked = true;
@@ -48,10 +48,10 @@ namespace Dowan
             Common.b = b;
             if (b.AddAccount())
             {
-                btnImport.Enabled = false;
+                button_Import_Account.Enabled = false;
                 btnLogin.Enabled = true;
-                btnImport.Text = "导入帐号";
-                btnExit.Enabled = true;
+                button_Import_Account.Text = "导入帐号";
+                button_Exit.Enabled = true;
                 button1.Enabled = true;
             }
         }
@@ -61,14 +61,14 @@ namespace Dowan
         {
             if (b == null)
                 return;
-            if (btnFlower.Text == "刷花中")
+            if (button_Flower.Text == "刷花中")
             {
-                btnFlower.Text = "开启刷花";
+                button_Flower.Text = "开启刷花";
                 Common.IsFlower = false;
             }
             else
             {
-                btnFlower.Text = "刷花中";
+                button_Flower.Text = "刷花中";
                 Common.IsFlower = true;
             }
             
@@ -103,29 +103,29 @@ namespace Dowan
             if (b == null)
                 return;           
             uint c = 0;
-            string cbch=cbChannel.Text;
-            if (string.IsNullOrEmpty(cbch) || cbch == "不进频道" || cbch == "退出频道")
-            {
-                Common.topsid = 0;
-            }
-            else //有频道号            
-            {
-                try
-                {
-                    c = uint.Parse(cbChannel.Text);
-                }
-                catch
-                {
-                    MessageBox.Show("频道号错误");
-                    return;
-                }
-                if (c < 0)
-                {
-                    MessageBox.Show("频道号错误");
-                    return;
-                }
-                Common.topsid = c;
-            }
+            //string cbch=cbChannel.Text;
+            //if (string.IsNullOrEmpty(cbch) || cbch == "不进频道" || cbch == "退出频道")
+            //{
+            //    Common.topsid = 0;
+            //}
+            //else //有频道号            
+            //{
+            //    try
+            //    {
+            //        c = uint.Parse(cbChannel.Text);
+            //    }
+            //    catch
+            //    {
+            //        MessageBox.Show("频道号错误");
+            //        return;
+            //    }
+            //    if (c < 0)
+            //    {
+            //        MessageBox.Show("频道号错误");
+            //        return;
+            //    }
+            //    Common.topsid = c;
+            //}
 
 
             if (btnLogin.Text != "切换频道")
@@ -137,10 +137,10 @@ namespace Dowan
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            llOnlineMsg.Text = "共:"+Common.LoadUserList.Count+"个，登录:"+Common.LoginedNum+"次,在线:"+Common.OnLineNum+"个";
-            llGetProxyNum.Text = "共获取"+Common.ProxyNum+"个代理IP";
+            //llOnlineMsg.Text = "共:"+Common.LoadUserList.Count+"个，登录:"+Common.LoginedNum+"次,在线:"+Common.OnLineNum+"个";
+            total_Get_Proxy_Number.Text = "共获取"+Common.ProxyNum+"个代理IP";
                // llProxyNum.Text = Common.ProxyNum.ToString();
-            userDGV.Refresh();
+            user_DataGridView.Refresh();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -189,7 +189,7 @@ namespace Dowan
             Common.b = b;
             if (b.AddQianMing())
             {
-                btnExit.Text = "导入签名";
+                button_Exit.Text = "导入签名";
                 for (int i = 0; i < Common.LoadUserList.Count; i++)
                 {
                     User u = Common.LoadUserList[i];
@@ -204,7 +204,7 @@ namespace Dowan
             uint c = 0;
             try
             {
-                c = uint.Parse(cbChannel.Text);
+                //c = uint.Parse(cbChannel.Text);
             }
             catch
             {
@@ -223,9 +223,9 @@ namespace Dowan
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            Common.CodeSwitch = checkBox1.Checked;
-            textBox1.Enabled = checkBox1.Checked;
-            textBox2.Enabled = checkBox1.Checked;
+            //Common.CodeSwitch = checkBox1.Checked;
+            //textBox1.Enabled = checkBox1.Checked;
+            //textBox2.Enabled = checkBox1.Checked;
         }
 
         private void rbNoProxy_CheckedChanged(object sender, EventArgs e)
@@ -258,12 +258,12 @@ namespace Dowan
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Common.CodeUser = textBox1.Text;
+            //Common.CodeUser = textBox1.Text;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            Common.CodePass = textBox2.Text;
+            //Common.CodePass = textBox2.Text;
         }
 
       
